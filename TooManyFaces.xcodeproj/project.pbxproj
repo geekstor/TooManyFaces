@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CB172D51A6A8F9800B6121B /* GameTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB172D41A6A8F9800B6121B /* GameTimer.swift */; };
+		3CB172D71A6AC30500B6121B /* GameSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB172D61A6AC30500B6121B /* GameSettingsViewController.swift */; };
 		3CE13F1D1A6A2F7C00F322E9 /* NamesGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */; };
 		3CE13F1F1A6A308F00F322E9 /* NamesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */; };
 		3CE13F221A6A4A5200F322E9 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE13F201A6A491700F322E9 /* FacebookSDK.framework */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		3CB172D41A6A8F9800B6121B /* GameTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTimer.swift; sourceTree = "<group>"; };
+		3CB172D61A6AC30500B6121B /* GameSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettingsViewController.swift; sourceTree = "<group>"; };
 		3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesGameModel.swift; sourceTree = "<group>"; };
 		3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesQuestion.swift; sourceTree = "<group>"; };
 		3CE13F201A6A491700F322E9 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */,
 				3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */,
 				3CE13F241A6A508200F322E9 /* SettingsViewController.swift */,
+				3CB172D61A6AC30500B6121B /* GameSettingsViewController.swift */,
 				3CE13F231A6A4C0200F322E9 /* BridgeHeader.h */,
 				3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */,
 				3CB172D41A6A8F9800B6121B /* GameTimer.swift */,
@@ -235,6 +238,7 @@
 				3CE13F1D1A6A2F7C00F322E9 /* NamesGameModel.swift in Sources */,
 				3CE13F1F1A6A308F00F322E9 /* NamesQuestion.swift in Sources */,
 				3CE13F251A6A508200F322E9 /* SettingsViewController.swift in Sources */,
+				3CB172D71A6AC30500B6121B /* GameSettingsViewController.swift in Sources */,
 				3CF1D35C1A6A199000A07C9F /* AppDelegate.swift in Sources */,
 				3CB172D51A6A8F9800B6121B /* GameTimer.swift in Sources */,
 			);

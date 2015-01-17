@@ -82,6 +82,24 @@
             </objects>
             <point key="canvasLocation" x="-216" y="842"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="3h0-0l-DL7">
+            <objects>
+                <viewController id="6rj-xh-qSz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bdz-Ph-pE0"/>
+                        <viewControllerLayoutGuide type="bottom" id="lcZ-Pu-iZe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ga3-0X-614">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRc-JF-wNg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-264" y="-1043"/>
+        </scene>
         <!--NamesGame-->
         <scene sceneID="r0D-wO-RQc">
             <objects>
@@ -241,10 +259,10 @@
             </objects>
             <point key="canvasLocation" x="-252" y="116"/>
         </scene>
-        <!--Start Game View Controller-->
+        <!--Settings-->
         <scene sceneID="f0X-AL-7Da">
             <objects>
-                <viewController id="yOK-Bq-6mR" customClass="StartGameViewController" customModule="TooManyFaces" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yOK-Bq-6mR" customClass="GameSettingsViewController" customModule="TooManyFaces" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hbK-KF-WR6"/>
                         <viewControllerLayoutGuide type="bottom" id="FDH-Q0-T90"/>
@@ -252,25 +270,13 @@
                     <view key="view" contentMode="scaleToFill" id="2pa-9v-7hD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3g8-UZ-fpk">
-                                <rect key="frame" x="26" y="285" width="548" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="3g8-UZ-fpk" secondAttribute="centerY" id="AtG-PA-8dn"/>
-                            <constraint firstItem="3g8-UZ-fpk" firstAttribute="leading" secondItem="2pa-9v-7hD" secondAttribute="leadingMargin" constant="10" id="EPr-xk-DGK"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="3g8-UZ-fpk" secondAttribute="trailing" constant="10" id="WcJ-JR-h27"/>
-                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" id="Dvt-02-LNx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndw-3C-vCn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1106" y="-101"/>
+            <point key="canvasLocation" x="-590" y="1419"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qrx-FQ-L93">
@@ -285,6 +291,7 @@
                     <connections>
                         <segue destination="PjK-23-KEe" kind="relationship" relationship="viewControllers" id="6Tl-4T-qFs"/>
                         <segue destination="DD9-TO-ocw" kind="relationship" relationship="viewControllers" id="qsB-oX-vzW"/>
+                        <segue destination="yOK-Bq-6mR" kind="relationship" relationship="viewControllers" id="oKp-hj-xJ6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qyY-wR-6wc" userLabel="First Responder" sceneMemberID="firstResponder"/>
