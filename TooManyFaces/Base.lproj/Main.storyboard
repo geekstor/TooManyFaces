@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="XHR-EL-VBP"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" id="XHR-EL-VBP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U5u-dK-Ipc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,6 +118,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gear" width="50" height="50"/>
         <image name="stack_of_photos" width="50" height="50"/>
     </resources>
 </document>

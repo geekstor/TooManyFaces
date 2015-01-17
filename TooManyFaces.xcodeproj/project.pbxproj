@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CE13F1D1A6A2F7C00F322E9 /* NamesGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */; };
 		3CE13F1F1A6A308F00F322E9 /* NamesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */; };
+		3CE13F221A6A4A5200F322E9 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE13F201A6A491700F322E9 /* FacebookSDK.framework */; };
 		3CF1D35C1A6A199000A07C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */; };
 		3CF1D35E1A6A199000A07C9F /* NamesGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */; };
 		3CF1D3611A6A199000A07C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1D35F1A6A199000A07C9F /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesGameModel.swift; sourceTree = "<group>"; };
 		3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesQuestion.swift; sourceTree = "<group>"; };
+		3CE13F201A6A491700F322E9 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		3CE13F231A6A4C0200F322E9 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		3CF1D3561A6A199000A07C9F /* TooManyFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TooManyFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF1D35A1A6A199000A07C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE13F221A6A4A5200F322E9 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +67,7 @@
 		3CF1D34D1A6A199000A07C9F = {
 			isa = PBXGroup;
 			children = (
+				3CE13F201A6A491700F322E9 /* FacebookSDK.framework */,
 				3CF1D3581A6A199000A07C9F /* TooManyFaces */,
 				3CF1D36E1A6A199000A07C9F /* TooManyFacesTests */,
 				3CF1D3571A6A199000A07C9F /* Products */,
@@ -83,6 +88,7 @@
 			children = (
 				3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */,
 				3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */,
+				3CE13F231A6A4C0200F322E9 /* BridgeHeader.h */,
 				3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */,
 				3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */,
 				3CF1D35F1A6A199000A07C9F /* Main.storyboard */,
@@ -347,9 +353,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Valli/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = TooManyFaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = TooManyFaces/BridgeHeader.h;
 			};
 			name = Debug;
 		};
@@ -357,9 +368,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Valli/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = TooManyFaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = TooManyFaces/BridgeHeader.h;
 			};
 			name = Release;
 		};

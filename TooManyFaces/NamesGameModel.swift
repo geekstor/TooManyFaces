@@ -11,7 +11,8 @@ import UIKit
 class NamesGameModel: NSObject {
 
     
-    let question1 = NamesQuestion(thePhoto: UIImage(named: "squirrel")!, theNames: ("Kyle", "Valli", "Maxim", "Justin"), correctName: "Justin")
+    
+    let question1 = NamesQuestion(thePhoto: UIImage(named: "valli")!, theNames: ("Kyle", "Valli", "Maxim", "Justin"), correctName: "Justin")
     
     var questions: [NamesQuestion] {
         get {

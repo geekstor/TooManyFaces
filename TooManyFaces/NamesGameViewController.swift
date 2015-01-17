@@ -39,14 +39,6 @@ class NamesGameViewController: UIViewController {
     }
     
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        
-        
-    }
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
