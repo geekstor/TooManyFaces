@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NamesGameViewController.swift
 //  TooManyFaces
 //
 //  Created by Valliappa Chockalingam on 1/16/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NamesGameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

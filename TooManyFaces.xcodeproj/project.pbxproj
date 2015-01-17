@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CF1D35C1A6A199000A07C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */; };
-		3CF1D35E1A6A199000A07C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D35D1A6A199000A07C9F /* ViewController.swift */; };
+		3CF1D35E1A6A199000A07C9F /* NamesGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */; };
 		3CF1D3611A6A199000A07C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1D35F1A6A199000A07C9F /* Main.storyboard */; };
 		3CF1D3631A6A199000A07C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1D3621A6A199000A07C9F /* Images.xcassets */; };
 		3CF1D3661A6A199000A07C9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1D3641A6A199000A07C9F /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		3CF1D3561A6A199000A07C9F /* TooManyFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TooManyFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF1D35A1A6A199000A07C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CF1D35D1A6A199000A07C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesGameViewController.swift; sourceTree = "<group>"; };
 		3CF1D3601A6A199000A07C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF1D3621A6A199000A07C9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3CF1D3651A6A199000A07C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */,
-				3CF1D35D1A6A199000A07C9F /* ViewController.swift */,
+				3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */,
 				3CF1D35F1A6A199000A07C9F /* Main.storyboard */,
 				3CF1D3621A6A199000A07C9F /* Images.xcassets */,
 				3CF1D3641A6A199000A07C9F /* LaunchScreen.xib */,
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF1D35E1A6A199000A07C9F /* ViewController.swift in Sources */,
+				3CF1D35E1A6A199000A07C9F /* NamesGameViewController.swift in Sources */,
 				3CF1D35C1A6A199000A07C9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +408,7 @@
 				3CF1D3771A6A199000A07C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CF1D3781A6A199000A07C9F /* Build configuration list for PBXNativeTarget "TooManyFacesTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +417,7 @@
 				3CF1D37A1A6A199000A07C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
