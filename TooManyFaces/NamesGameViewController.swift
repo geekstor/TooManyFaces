@@ -10,6 +10,7 @@ import UIKit
 
 class NamesGameViewController: UIViewController {
     
+    
     // Model
     let game = NamesGameModel()
     var currentQuestion: NamesQuestion?
@@ -174,10 +175,18 @@ class NamesGameViewController: UIViewController {
         
     }
     
+    
+    
+    func endGame() {
+        gameStatus = GameStatus.Complete
+        updateView()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "endGame", name: timerCompleteNotificationKey, object: nil)
         updateView()
     }
 

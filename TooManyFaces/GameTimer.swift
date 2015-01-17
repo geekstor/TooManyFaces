@@ -8,6 +8,8 @@
 
 import Foundation
 
+let timerCompleteNotificationKey = "com.TeamZero.TooManyFaces.TimerComplete"
+
 class GameTimer: NSObject {
     
     var timer = NSTimer()
@@ -30,7 +32,12 @@ class GameTimer: NSObject {
         if timeElapsed > timeLimit {
             stop()
             timer.invalidate()
+            notify()
         }
+    }
+    
+    func notify() {
+        NSNotificationCenter.defaultCenter().postNotificationName(timerCompleteNotificationKey, object: nil)
     }
     
     func start() {
