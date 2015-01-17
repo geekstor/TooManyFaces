@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CE13F1D1A6A2F7C00F322E9 /* NamesGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */; };
+		3CE13F1F1A6A308F00F322E9 /* NamesQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */; };
 		3CF1D35C1A6A199000A07C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */; };
 		3CF1D35E1A6A199000A07C9F /* NamesGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */; };
 		3CF1D3611A6A199000A07C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1D35F1A6A199000A07C9F /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesGameModel.swift; sourceTree = "<group>"; };
+		3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesQuestion.swift; sourceTree = "<group>"; };
 		3CF1D3561A6A199000A07C9F /* TooManyFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TooManyFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF1D35A1A6A199000A07C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				3CF1D35B1A6A199000A07C9F /* AppDelegate.swift */,
 				3CF1D35D1A6A199000A07C9F /* NamesGameViewController.swift */,
+				3CE13F1C1A6A2F7C00F322E9 /* NamesGameModel.swift */,
+				3CE13F1E1A6A308F00F322E9 /* NamesQuestion.swift */,
 				3CF1D35F1A6A199000A07C9F /* Main.storyboard */,
 				3CF1D3621A6A199000A07C9F /* Images.xcassets */,
 				3CF1D3641A6A199000A07C9F /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF1D35E1A6A199000A07C9F /* NamesGameViewController.swift in Sources */,
+				3CE13F1D1A6A2F7C00F322E9 /* NamesGameModel.swift in Sources */,
+				3CE13F1F1A6A308F00F322E9 /* NamesQuestion.swift in Sources */,
 				3CF1D35C1A6A199000A07C9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
