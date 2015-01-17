@@ -9,7 +9,7 @@
 import UIKit
 
 class NamesGameViewController: UIViewController {
-
+    
     let game = NamesGameModel()
     
     @IBOutlet weak var friendPhoto: UIImageView!

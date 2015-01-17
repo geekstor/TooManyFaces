@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
+    
+    // not sure why this is necessary (borrowed from http://www.appcoda.com/ios-programming-facebook-login-sdk/ )
     func application(application: UIApplication!, openURL url: NSURL!, sourceApplication: String!, annotation: AnyObject!) -> Bool {
         return FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
     }
