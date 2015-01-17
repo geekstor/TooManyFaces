@@ -19,6 +19,15 @@
 		3CF1D3631A6A199000A07C9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1D3621A6A199000A07C9F /* Images.xcassets */; };
 		3CF1D3661A6A199000A07C9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1D3641A6A199000A07C9F /* LaunchScreen.xib */; };
 		3CF1D3721A6A199000A07C9F /* TooManyFacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1D3711A6A199000A07C9F /* TooManyFacesTests.swift */; };
+		94BA997E1A6ADC9300612257 /* InstagramEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA996C1A6ADC9300612257 /* InstagramEngine.m */; };
+		94BA997F1A6ADC9300612257 /* InstagramKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94BA996E1A6ADC9300612257 /* InstagramKit.plist */; };
+		94BA99801A6ADC9300612257 /* IKUserInPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA99711A6ADC9300612257 /* IKUserInPhoto.m */; };
+		94BA99811A6ADC9300612257 /* InstagramComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA99731A6ADC9300612257 /* InstagramComment.m */; };
+		94BA99821A6ADC9300612257 /* InstagramMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA99751A6ADC9300612257 /* InstagramMedia.m */; };
+		94BA99831A6ADC9300612257 /* InstagramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA99771A6ADC9300612257 /* InstagramModel.m */; };
+		94BA99841A6ADC9300612257 /* InstagramPaginationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA99791A6ADC9300612257 /* InstagramPaginationInfo.m */; };
+		94BA99851A6ADC9300612257 /* InstagramTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA997B1A6ADC9300612257 /* InstagramTag.m */; };
+		94BA99861A6ADC9300612257 /* InstagramUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA997D1A6ADC9300612257 /* InstagramUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,24 @@
 		3CF1D36B1A6A199000A07C9F /* TooManyFacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooManyFacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF1D3701A6A199000A07C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF1D3711A6A199000A07C9F /* TooManyFacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooManyFacesTests.swift; sourceTree = "<group>"; };
+		94BA996B1A6ADC9300612257 /* InstagramEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramEngine.h; sourceTree = "<group>"; };
+		94BA996C1A6ADC9300612257 /* InstagramEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramEngine.m; sourceTree = "<group>"; };
+		94BA996D1A6ADC9300612257 /* InstagramKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramKit.h; sourceTree = "<group>"; };
+		94BA996E1A6ADC9300612257 /* InstagramKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InstagramKit.plist; sourceTree = "<group>"; };
+		94BA99701A6ADC9300612257 /* IKUserInPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKUserInPhoto.h; sourceTree = "<group>"; };
+		94BA99711A6ADC9300612257 /* IKUserInPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKUserInPhoto.m; sourceTree = "<group>"; };
+		94BA99721A6ADC9300612257 /* InstagramComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramComment.h; sourceTree = "<group>"; };
+		94BA99731A6ADC9300612257 /* InstagramComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramComment.m; sourceTree = "<group>"; };
+		94BA99741A6ADC9300612257 /* InstagramMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramMedia.h; sourceTree = "<group>"; };
+		94BA99751A6ADC9300612257 /* InstagramMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramMedia.m; sourceTree = "<group>"; };
+		94BA99761A6ADC9300612257 /* InstagramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramModel.h; sourceTree = "<group>"; };
+		94BA99771A6ADC9300612257 /* InstagramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramModel.m; sourceTree = "<group>"; };
+		94BA99781A6ADC9300612257 /* InstagramPaginationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramPaginationInfo.h; sourceTree = "<group>"; };
+		94BA99791A6ADC9300612257 /* InstagramPaginationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramPaginationInfo.m; sourceTree = "<group>"; };
+		94BA997A1A6ADC9300612257 /* InstagramTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramTag.h; sourceTree = "<group>"; };
+		94BA997B1A6ADC9300612257 /* InstagramTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramTag.m; sourceTree = "<group>"; };
+		94BA997C1A6ADC9300612257 /* InstagramUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramUser.h; sourceTree = "<group>"; };
+		94BA997D1A6ADC9300612257 /* InstagramUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				3CE13F201A6A491700F322E9 /* FacebookSDK.framework */,
+				94BA99691A6ADC9300612257 /* InstagramKit */,
 				3CF1D3581A6A199000A07C9F /* TooManyFaces */,
 				3CF1D36E1A6A199000A07C9F /* TooManyFacesTests */,
 				3CF1D3571A6A199000A07C9F /* Products */,
@@ -131,6 +159,47 @@
 				3CF1D3701A6A199000A07C9F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94BA99691A6ADC9300612257 /* InstagramKit */ = {
+			isa = PBXGroup;
+			children = (
+				94BA996A1A6ADC9300612257 /* Engine */,
+				94BA996D1A6ADC9300612257 /* InstagramKit.h */,
+				94BA996E1A6ADC9300612257 /* InstagramKit.plist */,
+				94BA996F1A6ADC9300612257 /* Models */,
+			);
+			path = InstagramKit;
+			sourceTree = "<group>";
+		};
+		94BA996A1A6ADC9300612257 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				94BA996B1A6ADC9300612257 /* InstagramEngine.h */,
+				94BA996C1A6ADC9300612257 /* InstagramEngine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		94BA996F1A6ADC9300612257 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94BA99701A6ADC9300612257 /* IKUserInPhoto.h */,
+				94BA99711A6ADC9300612257 /* IKUserInPhoto.m */,
+				94BA99721A6ADC9300612257 /* InstagramComment.h */,
+				94BA99731A6ADC9300612257 /* InstagramComment.m */,
+				94BA99741A6ADC9300612257 /* InstagramMedia.h */,
+				94BA99751A6ADC9300612257 /* InstagramMedia.m */,
+				94BA99761A6ADC9300612257 /* InstagramModel.h */,
+				94BA99771A6ADC9300612257 /* InstagramModel.m */,
+				94BA99781A6ADC9300612257 /* InstagramPaginationInfo.h */,
+				94BA99791A6ADC9300612257 /* InstagramPaginationInfo.m */,
+				94BA997A1A6ADC9300612257 /* InstagramTag.h */,
+				94BA997B1A6ADC9300612257 /* InstagramTag.m */,
+				94BA997C1A6ADC9300612257 /* InstagramUser.h */,
+				94BA997D1A6ADC9300612257 /* InstagramUser.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +285,7 @@
 			files = (
 				3CF1D3611A6A199000A07C9F /* Main.storyboard in Resources */,
 				3CF1D3661A6A199000A07C9F /* LaunchScreen.xib in Resources */,
+				94BA997F1A6ADC9300612257 /* InstagramKit.plist in Resources */,
 				3CF1D3631A6A199000A07C9F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,10 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BA997E1A6ADC9300612257 /* InstagramEngine.m in Sources */,
+				94BA99821A6ADC9300612257 /* InstagramMedia.m in Sources */,
 				3CF1D35E1A6A199000A07C9F /* NamesGameViewController.swift in Sources */,
+				94BA99861A6ADC9300612257 /* InstagramUser.m in Sources */,
+				94BA99851A6ADC9300612257 /* InstagramTag.m in Sources */,
 				3CE13F1D1A6A2F7C00F322E9 /* NamesGameModel.swift in Sources */,
 				3CE13F1F1A6A308F00F322E9 /* NamesQuestion.swift in Sources */,
+				94BA99811A6ADC9300612257 /* InstagramComment.m in Sources */,
+				94BA99831A6ADC9300612257 /* InstagramModel.m in Sources */,
 				3CE13F251A6A508200F322E9 /* SettingsViewController.swift in Sources */,
+				94BA99841A6ADC9300612257 /* InstagramPaginationInfo.m in Sources */,
+				94BA99801A6ADC9300612257 /* IKUserInPhoto.m in Sources */,
 				3CB172D71A6AC30500B6121B /* GameSettingsViewController.swift in Sources */,
 				3CF1D35C1A6A199000A07C9F /* AppDelegate.swift in Sources */,
 				3CB172D51A6A8F9800B6121B /* GameTimer.swift in Sources */,
