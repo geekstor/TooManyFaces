@@ -13,6 +13,8 @@ class NamesGameViewController: UIViewController {
     
     // Model
     let game = NamesGameModel()
+    var score = 0
+    var totalIncorrect = 0
     var currentQuestion: NamesQuestion?
     
     var timeLimit: NSTimeInterval = 10
@@ -33,6 +35,7 @@ class NamesGameViewController: UIViewController {
     @IBOutlet weak var friendName2: UIButton!
     @IBOutlet weak var friendName3: UIButton!
     @IBOutlet weak var friendName4: UIButton!
+    @IBOutlet weak var scoreLabel: UILabel!
     
     // Start view actions
     @IBAction func touchStartButton(sender: UIButton) {
@@ -92,11 +95,30 @@ class NamesGameViewController: UIViewController {
             if (name == currentQuestion?.correct) {
                 let greenColor = UIColor(red: 0, green: 255, blue: 0, alpha: 100)
                 sender.setTitleColor(greenColor, forState: UIControlState.Normal)
+                friendName1.enabled = false
+                friendName2.enabled = false
+                friendName3.enabled = false
+                friendName4.enabled = false
                 let timeInterval : NSTimeInterval = 0.5
                 var timer = NSTimer.scheduledTimerWithTimeInterval(timeInterval, target: self, selector:  Selector("completedQuestion"), userInfo: nil, repeats: false)
+                if(totalIncorrect == 0) {
+                    score += 5
+                }
+                else if(totalIncorrect == 1) {
+                    score += 3
+                }
+                else if(totalIncorrect == 2) {
+                    score += 2
+                }
+                else if(totalIncorrect == 3) {
+                    score += 1
+                }
+                totalIncorrect = 0
             } else {
                 let redColor = UIColor(red: 255, green: 0, blue: 0, alpha: 100)
                 sender.setTitleColor(redColor, forState: UIControlState.Normal)
+                sender.enabled = false
+                totalIncorrect += 1
             }
         }
     }
@@ -141,6 +163,11 @@ class NamesGameViewController: UIViewController {
         friendName3.setTitle("", forState: UIControlState.Normal)
         friendName4.setTitle("", forState: UIControlState.Normal)
         
+        friendName1.enabled = true
+        friendName2.enabled = true
+        friendName3.enabled = true
+        friendName4.enabled = true
+        
         // clear options
         if let defaultColor = friendName1.tintColor {
             
@@ -180,6 +207,7 @@ class NamesGameViewController: UIViewController {
     func endGame() {
         gameStatus = GameStatus.Complete
         updateView()
+        scoreLabel.text = "Score: \(score)"
     }
     
     override func viewDidLoad() {

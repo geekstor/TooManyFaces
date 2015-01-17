@@ -28,6 +28,11 @@ class NamesGameModel: NSObject {
         }
     }
     
+    override init() {
+        super.init()
+        //facebookFriends = getFacebookFriends()
+    }
+    
 }
 
 

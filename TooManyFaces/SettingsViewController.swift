@@ -60,7 +60,7 @@ class SettingsViewController: UIViewController, FBLoginViewDelegate {
         toggleHiddenState(true)
         FBloginStatus.text = ""
         
-        loginView.readPermissions = ["public_profile", "email"]
+        loginView.readPermissions = ["public_profile", "email", "user_friends", "read_friendlists"]
         loginView.delegate = self
     }
     
